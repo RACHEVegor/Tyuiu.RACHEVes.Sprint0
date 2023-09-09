@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{96a06cf2-c705-4bcb-9625-b6abda24f660}</ProjectGuid>
-    <RootNamespace>TyuiuRACHEVesSprint0Task0V0</RootNamespace>
+    <ProjectGuid>{dda56ea4-054d-4082-b736-04fc6edfc8d1}</ProjectGuid>
+    <RootNamespace>TyuiuRACHEVesSprint0Task1V0</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Tyuiu.RACHEV.es.Sprint.0.Task.0.V.0</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,6 +138,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Tyuiu.RACHEVes.Sprint0.Task1.V0.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
