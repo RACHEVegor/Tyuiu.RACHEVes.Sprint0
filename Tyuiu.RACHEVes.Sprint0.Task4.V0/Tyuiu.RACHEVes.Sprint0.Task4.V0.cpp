@@ -1,20 +1,11 @@
-// Tyuiu.RACHEVes.Sprint0.Task4.V0.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
-
+#include "../../Tyuiu.RACHEVes.Sprint0/Tyuiu.RACHEVes.Sprint0.Task4.V0.Lib/Tyuiu.RACHEVes.Sprint0.Task4.V0.Lib.cpp"
+using namespace std; //чтобы в каждой строке не писать std ::
 int main()
 {
-    std::cout << "Hello World!\n";
+    setlocale(LC_ALL, "RUSSIAN");
+    ISprint0Task4* date = new Service4();
+    cout << "\tRachev Egor Sergeevich\n";
+    cout << "\t–ешение примера четвЄртого варианта (2*3)+(7*4)\n"; // тут € немного с табул€цией поигралс€ :)
+    cout << "\tќтвет = " << date->Calculate(2, 3, 7, 4);
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
