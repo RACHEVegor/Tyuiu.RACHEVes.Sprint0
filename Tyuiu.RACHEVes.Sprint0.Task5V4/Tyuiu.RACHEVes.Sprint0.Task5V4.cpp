@@ -9,7 +9,7 @@ int main()
 	double r = 8.5; // Расход бензина
 	double p = 6.5; // Цена бензина
 	double U;
-	U = (s / 100) * r * p * 2);
+	U = ((( 2 * s) / 100) * r * p );
 	cout << U;
 	return 0;
 }
