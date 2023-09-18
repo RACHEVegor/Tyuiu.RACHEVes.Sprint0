@@ -13,6 +13,6 @@ int main()
 	cout << "Введите число y -";
 	cin >> y;
 	double D = (5 * x) / (7 + y);
-	cout << "Решение примера (5 * x) / (7 + y) = "<< D x<< endl;
+	cout << "Решение примера (5 * x) / (7 + y) = "<< D << endl;
 	return 0;
 }
